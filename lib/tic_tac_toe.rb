@@ -15,7 +15,6 @@ WIN_COMBINATIONS= [
   [2,4,6],
   ]
 
-end
 
 def display_board
   puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
@@ -98,4 +97,6 @@ def play
     else draw?
       puts "Cat's Game!"
   end
+end
+
 end
